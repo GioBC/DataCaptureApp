@@ -31,6 +31,9 @@
                                 </constraints>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Send Info"/>
+                                <connections>
+                                    <action selector="SendInfoAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Hb7-Gh-dkY"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="DATA CAPTURE" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UKN-eS-oTH">
                                 <rect key="frame" x="20" y="94" width="256" height="42"/>

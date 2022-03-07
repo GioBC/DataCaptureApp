@@ -9,6 +9,8 @@ target 'DataCapture' do
 	pod 'Alamofire'
 	pod 'Firebase/Analytics'
 	pod 'Firebase/RemoteConfig'
+	pod 'Firebase/Firestore'
+	pod 'Firebase/Database'
 
   target 'DataCaptureTests' do
     inherit! :search_paths

@@ -7,12 +7,14 @@
 
 import UIKit
 import FirebaseRemoteConfig
+import FirebaseDatabase
 
 class HomeViewController: UIViewController {
     
     var colorConfig = ColorConfig()
     var viewModel: DataViewModel = DataViewModel(repository: DataRepository(httpClient: AFHTTPClient()))
-
+    
+    var db: DatabaseReference!
     @IBOutlet weak var activityIndicator: UIActivityIndicatorView!
     @IBOutlet weak var dataTable: UITableView!
     
@@ -20,8 +22,9 @@ class HomeViewController: UIViewController {
         super.viewDidLoad()
         configCells()
         configTable()
-        // Remote config
+        // Remote config Firebase
         remoteConfig()
+        db = Database.database().reference()
         activityIndicator.isHidden = false
         viewModel.didLoadData = { [weak self] in
             self?.activityIndicator.isHidden = true
@@ -63,7 +66,10 @@ class HomeViewController: UIViewController {
         dataTable.delegate = self
     }
 
-
+    @IBAction func SendInfoAction(_ sender: Any) {
+        db.child("names").setValue(["userName" : "name"])
+    }
+    
 }
 
 extension HomeViewController: UITableViewDelegate, UITableViewDataSource {
