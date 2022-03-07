@@ -7,9 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7F9FBDA6D0A582F4CCEB39B4 /* Pods_DataCapture.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF0C0E9AF25F3BCE81256D58 /* Pods_DataCapture.framework */; };
+		A0B5BCCFAD414CFC4787452B /* Pods_DataCaptureTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFA5A8DD80C7C1911CBEE174 /* Pods_DataCaptureTests.framework */; };
+		E369569B27D6519B00BB5B54 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E369569A27D6519B00BB5B54 /* GoogleService-Info.plist */; };
 		E3A8E92727D40D5B0058F53E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A8E92627D40D5B0058F53E /* AppDelegate.swift */; };
 		E3A8E92927D40D5B0058F53E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A8E92827D40D5B0058F53E /* SceneDelegate.swift */; };
-		E3A8E92B27D40D5B0058F53E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A8E92A27D40D5B0058F53E /* ViewController.swift */; };
+		E3A8E92B27D40D5B0058F53E /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A8E92A27D40D5B0058F53E /* HomeViewController.swift */; };
 		E3A8E92E27D40D5B0058F53E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3A8E92C27D40D5B0058F53E /* Main.storyboard */; };
 		E3A8E93127D40D5B0058F53E /* DataCapture.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E3A8E92F27D40D5B0058F53E /* DataCapture.xcdatamodeld */; };
 		E3A8E93327D40D5F0058F53E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3A8E93227D40D5F0058F53E /* Assets.xcassets */; };
@@ -17,6 +20,24 @@
 		E3A8E94127D40D5F0058F53E /* DataCaptureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A8E94027D40D5F0058F53E /* DataCaptureTests.swift */; };
 		E3A8E94B27D40D600058F53E /* DataCaptureUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A8E94A27D40D600058F53E /* DataCaptureUITests.swift */; };
 		E3A8E94D27D40D600058F53E /* DataCaptureUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A8E94C27D40D600058F53E /* DataCaptureUITestsLaunchTests.swift */; };
+		E3A8E96627D4111D0058F53E /* photoCaptureCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A8E96427D4111D0058F53E /* photoCaptureCell.swift */; };
+		E3A8E96727D4111D0058F53E /* photoCaptureCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3A8E96527D4111D0058F53E /* photoCaptureCell.xib */; };
+		E3A8E96B27D411D00058F53E /* DashBoardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A8E96927D411D00058F53E /* DashBoardCell.swift */; };
+		E3A8E96C27D411D00058F53E /* DashBoardCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3A8E96A27D411D00058F53E /* DashBoardCell.xib */; };
+		E3A8E96F27D415250058F53E /* nameCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A8E96D27D415250058F53E /* nameCell.swift */; };
+		E3A8E97027D415250058F53E /* nameCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3A8E96E27D415250058F53E /* nameCell.xib */; };
+		E3A8E97427D4198A0058F53E /* CameraService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A8E97327D4198A0058F53E /* CameraService.swift */; };
+		E3A8E97E27D43C200058F53E /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A8E97C27D43C200058F53E /* CameraViewController.swift */; };
+		E3A8E97F27D43C200058F53E /* CameraViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3A8E97D27D43C200058F53E /* CameraViewController.xib */; };
+		E3A8E98127D4620C0058F53E /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A8E98027D4620C0058F53E /* DataModel.swift */; };
+		E3A8E98627D470F00058F53E /* AFHttpClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A8E98527D470F00058F53E /* AFHttpClient.swift */; };
+		E3A8E98827D471570058F53E /* HTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A8E98727D471570058F53E /* HTTPClient.swift */; };
+		E3A8E98D27D473360058F53E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A8E98C27D473360058F53E /* Constants.swift */; };
+		E3A8E99127D476970058F53E /* DataRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A8E99027D476970058F53E /* DataRepository.swift */; };
+		E3A8E99427D478320058F53E /* DataViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A8E99327D478320058F53E /* DataViewModel.swift */; };
+		E3A8E99627D56B4C0058F53E /* ProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A8E99527D56B4C0058F53E /* ProgressBar.swift */; };
+		E3A8E99827D5749E0058F53E /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A8E99727D5749E0058F53E /* Extensions.swift */; };
+		EF8C00BAC31B17FD2D1D0E1B /* Pods_DataCapture_DataCaptureUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E48FC6C5E9E86211F6879419 /* Pods_DataCapture_DataCaptureUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,10 +58,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2D0A01CCB4D7700C31BE161D /* Pods-DataCaptureTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DataCaptureTests.debug.xcconfig"; path = "Target Support Files/Pods-DataCaptureTests/Pods-DataCaptureTests.debug.xcconfig"; sourceTree = "<group>"; };
+		36EF4608F816145F09588499 /* Pods-DataCapture.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DataCapture.debug.xcconfig"; path = "Target Support Files/Pods-DataCapture/Pods-DataCapture.debug.xcconfig"; sourceTree = "<group>"; };
+		77E72838E9ACE3E23E9675FE /* Pods-DataCapture.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DataCapture.release.xcconfig"; path = "Target Support Files/Pods-DataCapture/Pods-DataCapture.release.xcconfig"; sourceTree = "<group>"; };
+		931CDE91A66C59A4140D1B01 /* Pods-DataCaptureTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DataCaptureTests.release.xcconfig"; path = "Target Support Files/Pods-DataCaptureTests/Pods-DataCaptureTests.release.xcconfig"; sourceTree = "<group>"; };
+		BFA5A8DD80C7C1911CBEE174 /* Pods_DataCaptureTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DataCaptureTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC2115BFBCABA68E6A9C8911 /* Pods-DataCapture-DataCaptureUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DataCapture-DataCaptureUITests.release.xcconfig"; path = "Target Support Files/Pods-DataCapture-DataCaptureUITests/Pods-DataCapture-DataCaptureUITests.release.xcconfig"; sourceTree = "<group>"; };
+		DF0C0E9AF25F3BCE81256D58 /* Pods_DataCapture.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DataCapture.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E369569A27D6519B00BB5B54 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		E3A8E92327D40D5B0058F53E /* DataCapture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DataCapture.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3A8E92627D40D5B0058F53E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E3A8E92827D40D5B0058F53E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E3A8E92A27D40D5B0058F53E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E3A8E92A27D40D5B0058F53E /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		E3A8E92D27D40D5B0058F53E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E3A8E93027D40D5B0058F53E /* DataCapture.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataCapture.xcdatamodel; sourceTree = "<group>"; };
 		E3A8E93227D40D5F0058F53E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +80,25 @@
 		E3A8E94627D40D600058F53E /* DataCaptureUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DataCaptureUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3A8E94A27D40D600058F53E /* DataCaptureUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataCaptureUITests.swift; sourceTree = "<group>"; };
 		E3A8E94C27D40D600058F53E /* DataCaptureUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataCaptureUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E3A8E96427D4111D0058F53E /* photoCaptureCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = photoCaptureCell.swift; sourceTree = "<group>"; };
+		E3A8E96527D4111D0058F53E /* photoCaptureCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = photoCaptureCell.xib; sourceTree = "<group>"; };
+		E3A8E96927D411D00058F53E /* DashBoardCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashBoardCell.swift; sourceTree = "<group>"; };
+		E3A8E96A27D411D00058F53E /* DashBoardCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DashBoardCell.xib; sourceTree = "<group>"; };
+		E3A8E96D27D415250058F53E /* nameCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nameCell.swift; sourceTree = "<group>"; };
+		E3A8E96E27D415250058F53E /* nameCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = nameCell.xib; sourceTree = "<group>"; };
+		E3A8E97327D4198A0058F53E /* CameraService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraService.swift; sourceTree = "<group>"; };
+		E3A8E97C27D43C200058F53E /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		E3A8E97D27D43C200058F53E /* CameraViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CameraViewController.xib; sourceTree = "<group>"; };
+		E3A8E98027D4620C0058F53E /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		E3A8E98527D470F00058F53E /* AFHttpClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AFHttpClient.swift; sourceTree = "<group>"; };
+		E3A8E98727D471570058F53E /* HTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPClient.swift; sourceTree = "<group>"; };
+		E3A8E98C27D473360058F53E /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		E3A8E99027D476970058F53E /* DataRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataRepository.swift; sourceTree = "<group>"; };
+		E3A8E99327D478320058F53E /* DataViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewModel.swift; sourceTree = "<group>"; };
+		E3A8E99527D56B4C0058F53E /* ProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBar.swift; sourceTree = "<group>"; };
+		E3A8E99727D5749E0058F53E /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		E48FC6C5E9E86211F6879419 /* Pods_DataCapture_DataCaptureUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DataCapture_DataCaptureUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F81E273CDD78BBF7BD9DE6EA /* Pods-DataCapture-DataCaptureUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DataCapture-DataCaptureUITests.debug.xcconfig"; path = "Target Support Files/Pods-DataCapture-DataCaptureUITests/Pods-DataCapture-DataCaptureUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +106,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F9FBDA6D0A582F4CCEB39B4 /* Pods_DataCapture.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +114,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0B5BCCFAD414CFC4787452B /* Pods_DataCaptureTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +122,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF8C00BAC31B17FD2D1D0E1B /* Pods_DataCapture_DataCaptureUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3C5B5B95042F0F4AE4749A60 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				36EF4608F816145F09588499 /* Pods-DataCapture.debug.xcconfig */,
+				77E72838E9ACE3E23E9675FE /* Pods-DataCapture.release.xcconfig */,
+				F81E273CDD78BBF7BD9DE6EA /* Pods-DataCapture-DataCaptureUITests.debug.xcconfig */,
+				CC2115BFBCABA68E6A9C8911 /* Pods-DataCapture-DataCaptureUITests.release.xcconfig */,
+				2D0A01CCB4D7700C31BE161D /* Pods-DataCaptureTests.debug.xcconfig */,
+				931CDE91A66C59A4140D1B01 /* Pods-DataCaptureTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CCAED49F2E7F25B72D692DD0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DF0C0E9AF25F3BCE81256D58 /* Pods_DataCapture.framework */,
+				E48FC6C5E9E86211F6879419 /* Pods_DataCapture_DataCaptureUITests.framework */,
+				BFA5A8DD80C7C1911CBEE174 /* Pods_DataCaptureTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E3A8E91A27D40D5B0058F53E = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +159,8 @@
 				E3A8E93F27D40D5F0058F53E /* DataCaptureTests */,
 				E3A8E94927D40D600058F53E /* DataCaptureUITests */,
 				E3A8E92427D40D5B0058F53E /* Products */,
+				3C5B5B95042F0F4AE4749A60 /* Pods */,
+				CCAED49F2E7F25B72D692DD0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,13 +177,18 @@
 		E3A8E92527D40D5B0058F53E /* DataCapture */ = {
 			isa = PBXGroup;
 			children = (
+				E3A8E99227D478180058F53E /* DataViewModel */,
+				E3A8E98F27D476650058F53E /* DataLayer */,
+				E3A8E98B27D473240058F53E /* Utils */,
+				E3A8E97527D43B790058F53E /* Camera */,
+				E3A8E97127D4196B0058F53E /* Services */,
+				E3A8E95927D40D760058F53E /* Home */,
 				E3A8E92627D40D5B0058F53E /* AppDelegate.swift */,
 				E3A8E92827D40D5B0058F53E /* SceneDelegate.swift */,
-				E3A8E92A27D40D5B0058F53E /* ViewController.swift */,
-				E3A8E92C27D40D5B0058F53E /* Main.storyboard */,
 				E3A8E93227D40D5F0058F53E /* Assets.xcassets */,
 				E3A8E93427D40D5F0058F53E /* LaunchScreen.storyboard */,
 				E3A8E93727D40D5F0058F53E /* Info.plist */,
+				E369569A27D6519B00BB5B54 /* GoogleService-Info.plist */,
 				E3A8E92F27D40D5B0058F53E /* DataCapture.xcdatamodeld */,
 			);
 			path = DataCapture;
@@ -130,6 +211,131 @@
 			path = DataCaptureUITests;
 			sourceTree = "<group>";
 		};
+		E3A8E95927D40D760058F53E /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				E3A8E95A27D40FB20058F53E /* Cells */,
+				E3A8E92A27D40D5B0058F53E /* HomeViewController.swift */,
+				E3A8E92C27D40D5B0058F53E /* Main.storyboard */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		E3A8E95A27D40FB20058F53E /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				E3A8E95D27D40FD40058F53E /* Dashboard */,
+				E3A8E95C27D40FCB0058F53E /* PhotoCapture */,
+				E3A8E95B27D40FBF0058F53E /* Name */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		E3A8E95B27D40FBF0058F53E /* Name */ = {
+			isa = PBXGroup;
+			children = (
+				E3A8E96D27D415250058F53E /* nameCell.swift */,
+				E3A8E96E27D415250058F53E /* nameCell.xib */,
+			);
+			path = Name;
+			sourceTree = "<group>";
+		};
+		E3A8E95C27D40FCB0058F53E /* PhotoCapture */ = {
+			isa = PBXGroup;
+			children = (
+				E3A8E96427D4111D0058F53E /* photoCaptureCell.swift */,
+				E3A8E96527D4111D0058F53E /* photoCaptureCell.xib */,
+			);
+			path = PhotoCapture;
+			sourceTree = "<group>";
+		};
+		E3A8E95D27D40FD40058F53E /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				E3A8E96927D411D00058F53E /* DashBoardCell.swift */,
+				E3A8E96A27D411D00058F53E /* DashBoardCell.xib */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		E3A8E97127D4196B0058F53E /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				E3A8E97227D419750058F53E /* CameraService */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		E3A8E97227D419750058F53E /* CameraService */ = {
+			isa = PBXGroup;
+			children = (
+				E3A8E97327D4198A0058F53E /* CameraService.swift */,
+			);
+			path = CameraService;
+			sourceTree = "<group>";
+		};
+		E3A8E97527D43B790058F53E /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+				E3A8E97C27D43C200058F53E /* CameraViewController.swift */,
+				E3A8E97D27D43C200058F53E /* CameraViewController.xib */,
+			);
+			path = Camera;
+			sourceTree = "<group>";
+		};
+		E3A8E98227D4707F0058F53E /* API */ = {
+			isa = PBXGroup;
+			children = (
+				E3A8E98027D4620C0058F53E /* DataModel.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		E3A8E98427D470C80058F53E /* Client */ = {
+			isa = PBXGroup;
+			children = (
+				E3A8E98527D470F00058F53E /* AFHttpClient.swift */,
+				E3A8E98727D471570058F53E /* HTTPClient.swift */,
+			);
+			path = Client;
+			sourceTree = "<group>";
+		};
+		E3A8E98B27D473240058F53E /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				E3A8E98C27D473360058F53E /* Constants.swift */,
+				E3A8E99527D56B4C0058F53E /* ProgressBar.swift */,
+				E3A8E99727D5749E0058F53E /* Extensions.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		E3A8E98E27D4765A0058F53E /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				E3A8E99027D476970058F53E /* DataRepository.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		E3A8E98F27D476650058F53E /* DataLayer */ = {
+			isa = PBXGroup;
+			children = (
+				E3A8E98227D4707F0058F53E /* API */,
+				E3A8E98427D470C80058F53E /* Client */,
+				E3A8E98E27D4765A0058F53E /* Repository */,
+			);
+			path = DataLayer;
+			sourceTree = "<group>";
+		};
+		E3A8E99227D478180058F53E /* DataViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				E3A8E99327D478320058F53E /* DataViewModel.swift */,
+			);
+			path = DataViewModel;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,9 +343,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E3A8E95027D40D600058F53E /* Build configuration list for PBXNativeTarget "DataCapture" */;
 			buildPhases = (
+				7A657096332E1B594C77AAAA /* [CP] Check Pods Manifest.lock */,
 				E3A8E91F27D40D5B0058F53E /* Sources */,
 				E3A8E92027D40D5B0058F53E /* Frameworks */,
 				E3A8E92127D40D5B0058F53E /* Resources */,
+				A3AE8F1048AECF992FDEA778 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -154,6 +362,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E3A8E95327D40D600058F53E /* Build configuration list for PBXNativeTarget "DataCaptureTests" */;
 			buildPhases = (
+				5B63650830C04F83DF0328AF /* [CP] Check Pods Manifest.lock */,
 				E3A8E93827D40D5F0058F53E /* Sources */,
 				E3A8E93927D40D5F0058F53E /* Frameworks */,
 				E3A8E93A27D40D5F0058F53E /* Resources */,
@@ -172,9 +381,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E3A8E95627D40D600058F53E /* Build configuration list for PBXNativeTarget "DataCaptureUITests" */;
 			buildPhases = (
+				97A33B980561526FEAC863F6 /* [CP] Check Pods Manifest.lock */,
 				E3A8E94227D40D600058F53E /* Sources */,
 				E3A8E94327D40D600058F53E /* Frameworks */,
 				E3A8E94427D40D600058F53E /* Resources */,
+				ADAD08B11E7F66A63634995B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -234,9 +445,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3A8E97F27D43C200058F53E /* CameraViewController.xib in Resources */,
+				E369569B27D6519B00BB5B54 /* GoogleService-Info.plist in Resources */,
 				E3A8E93627D40D5F0058F53E /* LaunchScreen.storyboard in Resources */,
 				E3A8E93327D40D5F0058F53E /* Assets.xcassets in Resources */,
+				E3A8E97027D415250058F53E /* nameCell.xib in Resources */,
+				E3A8E96C27D411D00058F53E /* DashBoardCell.xib in Resources */,
 				E3A8E92E27D40D5B0058F53E /* Main.storyboard in Resources */,
+				E3A8E96727D4111D0058F53E /* photoCaptureCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,15 +472,131 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5B63650830C04F83DF0328AF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DataCaptureTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7A657096332E1B594C77AAAA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DataCapture-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		97A33B980561526FEAC863F6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DataCapture-DataCaptureUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A3AE8F1048AECF992FDEA778 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DataCapture/Pods-DataCapture-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DataCapture/Pods-DataCapture-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DataCapture/Pods-DataCapture-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ADAD08B11E7F66A63634995B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DataCapture-DataCaptureUITests/Pods-DataCapture-DataCaptureUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DataCapture-DataCaptureUITests/Pods-DataCapture-DataCaptureUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DataCapture-DataCaptureUITests/Pods-DataCapture-DataCaptureUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E3A8E91F27D40D5B0058F53E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E3A8E92B27D40D5B0058F53E /* ViewController.swift in Sources */,
+				E3A8E97427D4198A0058F53E /* CameraService.swift in Sources */,
+				E3A8E92B27D40D5B0058F53E /* HomeViewController.swift in Sources */,
+				E3A8E98827D471570058F53E /* HTTPClient.swift in Sources */,
+				E3A8E96627D4111D0058F53E /* photoCaptureCell.swift in Sources */,
+				E3A8E99427D478320058F53E /* DataViewModel.swift in Sources */,
+				E3A8E98627D470F00058F53E /* AFHttpClient.swift in Sources */,
+				E3A8E99627D56B4C0058F53E /* ProgressBar.swift in Sources */,
 				E3A8E92727D40D5B0058F53E /* AppDelegate.swift in Sources */,
+				E3A8E99127D476970058F53E /* DataRepository.swift in Sources */,
+				E3A8E96F27D415250058F53E /* nameCell.swift in Sources */,
+				E3A8E98127D4620C0058F53E /* DataModel.swift in Sources */,
 				E3A8E93127D40D5B0058F53E /* DataCapture.xcdatamodeld in Sources */,
+				E3A8E96B27D411D00058F53E /* DashBoardCell.swift in Sources */,
+				E3A8E98D27D473360058F53E /* Constants.swift in Sources */,
+				E3A8E99827D5749E0058F53E /* Extensions.swift in Sources */,
 				E3A8E92927D40D5B0058F53E /* SceneDelegate.swift in Sources */,
+				E3A8E97E27D43C200058F53E /* CameraViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -438,6 +770,7 @@
 		};
 		E3A8E95127D40D600058F53E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36EF4608F816145F09588499 /* Pods-DataCapture.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -445,6 +778,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = DataCapture/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Take you a Selfie";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -465,6 +799,7 @@
 		};
 		E3A8E95227D40D600058F53E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77E72838E9ACE3E23E9675FE /* Pods-DataCapture.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -472,6 +807,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = DataCapture/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Take you a Selfie";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -492,6 +828,7 @@
 		};
 		E3A8E95427D40D600058F53E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D0A01CCB4D7700C31BE161D /* Pods-DataCaptureTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -516,6 +853,7 @@
 		};
 		E3A8E95527D40D600058F53E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 931CDE91A66C59A4140D1B01 /* Pods-DataCaptureTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -540,6 +878,7 @@
 		};
 		E3A8E95727D40D600058F53E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F81E273CDD78BBF7BD9DE6EA /* Pods-DataCapture-DataCaptureUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -562,6 +901,7 @@
 		};
 		E3A8E95827D40D600058F53E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC2115BFBCABA68E6A9C8911 /* Pods-DataCapture-DataCaptureUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

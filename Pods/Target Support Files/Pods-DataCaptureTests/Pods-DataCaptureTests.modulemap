@@ -1,0 +1,6 @@
+framework module Pods_DataCaptureTests {
+  umbrella header "Pods-DataCaptureTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module Pods_DataCapture {
+  umbrella header "Pods-DataCapture-umbrella.h"
+
+  export *
+  module * { export * }
+}
