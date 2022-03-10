@@ -41,9 +41,7 @@ class ChartCell: UITableViewCell, ChartViewDelegate {
         for i in 0..<data.questions[1].chartData.count {
             entries.append(ChartDataEntry(
                 x: Double(data.questions[1].chartData[i].percetnage),
-                y: Double(data.questions[1].chartData[i].percetnage),
-                data: data.questions[1].chartData[i].text))
-            ChartDataEntry(
+                y: Double(data.questions[1].chartData[i].percetnage)))
         }
         
         let set = PieChartDataSet(entries: entries)

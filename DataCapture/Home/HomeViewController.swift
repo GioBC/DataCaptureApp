@@ -19,10 +19,13 @@ class HomeViewController: UIViewController {
         configCells()
         configTable()
         
+        activityIndicator.isHidden = false
         viewModel.remoteConfigLoaded = { [weak self] color in
+            self?.activityIndicator.isHidden = true
             self?.view.backgroundColor = color
         }
         
+        activityIndicator.isHidden = false
         viewModel.didLoadData = { [weak self] in
             self?.activityIndicator.isHidden = true
             self?.dataTable.reloadData()
