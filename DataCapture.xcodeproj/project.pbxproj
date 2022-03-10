@@ -37,6 +37,8 @@
 		E3A8E99427D478320058F53E /* DataViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A8E99327D478320058F53E /* DataViewModel.swift */; };
 		E3A8E99627D56B4C0058F53E /* ProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A8E99527D56B4C0058F53E /* ProgressBar.swift */; };
 		E3A8E99827D5749E0058F53E /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A8E99727D5749E0058F53E /* Extensions.swift */; };
+		E3ADB90727D981C400248E85 /* ChartCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3ADB90527D981C400248E85 /* ChartCell.swift */; };
+		E3ADB90827D981C400248E85 /* ChartCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3ADB90627D981C400248E85 /* ChartCell.xib */; };
 		EF8C00BAC31B17FD2D1D0E1B /* Pods_DataCapture_DataCaptureUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E48FC6C5E9E86211F6879419 /* Pods_DataCapture_DataCaptureUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -97,6 +99,8 @@
 		E3A8E99327D478320058F53E /* DataViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewModel.swift; sourceTree = "<group>"; };
 		E3A8E99527D56B4C0058F53E /* ProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBar.swift; sourceTree = "<group>"; };
 		E3A8E99727D5749E0058F53E /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		E3ADB90527D981C400248E85 /* ChartCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartCell.swift; sourceTree = "<group>"; };
+		E3ADB90627D981C400248E85 /* ChartCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChartCell.xib; sourceTree = "<group>"; };
 		E48FC6C5E9E86211F6879419 /* Pods_DataCapture_DataCaptureUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DataCapture_DataCaptureUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F81E273CDD78BBF7BD9DE6EA /* Pods-DataCapture-DataCaptureUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DataCapture-DataCaptureUITests.debug.xcconfig"; path = "Target Support Files/Pods-DataCapture-DataCaptureUITests/Pods-DataCapture-DataCaptureUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -224,6 +228,7 @@
 		E3A8E95A27D40FB20058F53E /* Cells */ = {
 			isa = PBXGroup;
 			children = (
+				E3ADB90227D9817B00248E85 /* Chart */,
 				E3A8E95D27D40FD40058F53E /* Dashboard */,
 				E3A8E95C27D40FCB0058F53E /* PhotoCapture */,
 				E3A8E95B27D40FBF0058F53E /* Name */,
@@ -334,6 +339,15 @@
 				E3A8E99327D478320058F53E /* DataViewModel.swift */,
 			);
 			path = DataViewModel;
+			sourceTree = "<group>";
+		};
+		E3ADB90227D9817B00248E85 /* Chart */ = {
+			isa = PBXGroup;
+			children = (
+				E3ADB90527D981C400248E85 /* ChartCell.swift */,
+				E3ADB90627D981C400248E85 /* ChartCell.xib */,
+			);
+			path = Chart;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -449,6 +463,7 @@
 				E369569B27D6519B00BB5B54 /* GoogleService-Info.plist in Resources */,
 				E3A8E93627D40D5F0058F53E /* LaunchScreen.storyboard in Resources */,
 				E3A8E93327D40D5F0058F53E /* Assets.xcassets in Resources */,
+				E3ADB90827D981C400248E85 /* ChartCell.xib in Resources */,
 				E3A8E97027D415250058F53E /* nameCell.xib in Resources */,
 				E3A8E96C27D411D00058F53E /* DashBoardCell.xib in Resources */,
 				E3A8E92E27D40D5B0058F53E /* Main.storyboard in Resources */,
@@ -592,6 +607,7 @@
 				E3A8E96F27D415250058F53E /* nameCell.swift in Sources */,
 				E3A8E98127D4620C0058F53E /* DataModel.swift in Sources */,
 				E3A8E93127D40D5B0058F53E /* DataCapture.xcdatamodeld in Sources */,
+				E3ADB90727D981C400248E85 /* ChartCell.swift in Sources */,
 				E3A8E96B27D411D00058F53E /* DashBoardCell.swift in Sources */,
 				E3A8E98D27D473360058F53E /* Constants.swift in Sources */,
 				E3A8E99827D5749E0058F53E /* Extensions.swift in Sources */,

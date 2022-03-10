@@ -11,6 +11,7 @@ target 'DataCapture' do
 	pod 'Firebase/RemoteConfig'
 	pod 'Firebase/Firestore'
 	pod 'Firebase/Database'
+	pod 'Charts'
 
   target 'DataCaptureTests' do
     inherit! :search_paths

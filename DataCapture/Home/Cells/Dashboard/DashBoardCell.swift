@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import Charts
 
 class DashBoardCell: UITableViewCell {
     
@@ -54,7 +55,6 @@ class DashBoardCell: UITableViewCell {
         configFirstSection(with: data)
         //Second Info
         configSecondSection(with: data)
-        
     }
     
     func configFirstSection(with data: DataModel) {
