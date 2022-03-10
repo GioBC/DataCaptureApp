@@ -45,11 +45,27 @@ class HomeViewController: UIViewController {
         dataTable.dataSource = self
         dataTable.delegate = self
     }
+    
+    private func showMessage(title: String, message: String) {
+        let alert = UIAlertController(title: title, message: message, preferredStyle: UIAlertController.Style.alert)
+        alert.addAction(UIAlertAction(title: "Aceptar", style: UIAlertAction.Style.default, handler: nil))
+        self.present(alert, animated: true, completion: nil)
+    }
 
     @IBAction func SendInfoAction(_ sender: Any) {
-        viewModel.saveUserName(userName: viewModel.nameText ?? "")
+        
+        guard let name = viewModel.nameText else {
+            showMessage(title: Constants.genericErrorTitle, message: Constants.errorNameTextEmpty)
+            return
+        }
+        
+        if name.validTextOnlyCharacters() {
+            viewModel.saveUserName(userName: name)
+            showMessage(title: Constants.completed, message: Constants.succesfulySave)
+        } else {
+            showMessage(title: Constants.genericErrorTitle, message: Constants.errorCharacters)
+        }
     }
-    
 }
 
 extension HomeViewController: UITableViewDelegate, UITableViewDataSource {
